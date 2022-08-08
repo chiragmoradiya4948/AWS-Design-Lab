@@ -10,6 +10,6 @@ It is a software development methodology that automates the release process. Eve
 
 It is a software development approach in which team members use a version control system and often merge their work into the same location, such as a main branch. Each update is created and tested in order to find integration flaws as soon as possible. Continuous integration is focused on automatically building and testing code, as compared to continuous delivery, which automates the entire software release process up to production. 
 
-<img src="/AWS CodePipeline/AWS_pipeline.png" width="600px" height="600px"
+<img src="/AWS CodePipeline/AWS_pipeline.png" width="1100px" height="450px"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
