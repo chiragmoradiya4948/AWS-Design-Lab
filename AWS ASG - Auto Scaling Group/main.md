@@ -47,73 +47,73 @@ Choose from your existing load balancers.
 #### Step 1 & 2
 ####
 
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="450px" height="350px"
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 #### Step 3 & 4
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00002.png" width="450px" height="350px"
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00002.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
    #### Step 5
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00003.png" width="450px" height="350px"
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00003.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
    #### Step 6 & 7
    ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00004.png" width="450px" height="350px"
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00004.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
    
    #### Step 8
    ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00005.png" width="450px" height="350px"
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00005.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
    #### Step 9 & 10
    ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00006.png" width="450px" height="350px"
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00006.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
    #### Step 11
    ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00007.png" width="450px" height="350px"
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00007.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####
    #### Step 12
    ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00008.png" width="450px" height="350px"
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00008.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
    #### Step 13
    ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00009.png" width="450px" height="350px"
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00009.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
    ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00010.png" width="450px" height="350px"
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00010.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
    #### Step 14,15 & 16
    ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00011.png" width="450px" height="350px"
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00011.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
    #### Step 17
    ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00012.png" width="450px" height="350px"
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00012.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
