@@ -27,8 +27,7 @@ Your applications benefit from Amazon EC2 Auto Scaling in the following ways:
 - Better cost management: Amazon EC2 Auto Scaling can increase and decrease capacity dynamically as needed. You save money by creating instances when they are needed and terminating them when they aren't since you pay for the EC2 instances you utilise.
 
 
-####
-Best use case
+#### Best use case
 - E-commerce websites, such websites has more traffic on discount sale compare to normal days.
 
 #### Road map ####
