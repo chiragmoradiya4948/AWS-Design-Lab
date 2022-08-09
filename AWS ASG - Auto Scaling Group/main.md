@@ -76,25 +76,25 @@ Choose from your existing load balancers.
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
-   #### Step 9 & 10
+   #### Step 9 & 10 : Sext matrix for group size & rest setting by default, And review the ASG and click on 'create it'
    ####
 <img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00006.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
-   #### Step 11
+   #### Step 11 : It will take some time and after that you can see ASG is created 
    ####
 <img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00007.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####
-   #### Step 12
+   #### Step 12 : If you expand it, you will see 2 instances (As per desired instance) are running on 'Instance management' tab
    ####
 <img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00008.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
-   #### Step 13
+   #### Step 13 : You can also see running instances on EC2 dashboard, Now we purposefully stop instance 'i-0638f89a23db1829f'
    ####
 <img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00009.png" width="auto" height="auto"
      alt="Application Load Balancer"
@@ -105,13 +105,13 @@ Choose from your existing load balancers.
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
-   #### Step 14,15 & 16
+   #### Step 14,15 & 16 : Now ASG group automatically detects 'unhealthy' instance and will create new instance on set availability zone
    ####
 <img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00011.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
-   #### Step 17
+   #### Step 17 : Newly created instance can see on EC2 dashboard with running state
    ####
 <img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00012.png" width="auto" height="auto"
      alt="Application Load Balancer"
