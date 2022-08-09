@@ -12,7 +12,7 @@ If scaling policies are specified,then Amazon EC2 Auto Scaling can start or stop
 For instance, the next Auto Scaling group has a minimum instance size of one, a targeted instance capacity of two, and a maximum instance size of four. Within your minimum and maximum number of instances, the scaling policies you design change the number of instances according to the parameters you set.
 ####
 
-<img src="/AWS-Design-Lab/AWS ASG - Auto Scaling Group/AWS_ASG.png" width="450px" height="350px"
+<img src="/AWS ASG - Auto Scaling Group/AWS_ASG.png" width="450px" height="350px"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 
@@ -47,13 +47,63 @@ Choose from your existing load balancers.
 
 ####
 
-<img src="/AWS-Design-Lab/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="450px" height="350px"
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="450px" height="350px"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 ####
-<img src="/AWS-Design-Lab/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="450px" height="350px"
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00002.png" width="450px" height="350px"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
-
+####
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00003.png" width="450px" height="350px"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+   ####  
+   ####
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00004.png" width="450px" height="350px"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+   ####  
+   ####
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00005.png" width="450px" height="350px"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+   ####  
+   ####
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00006.png" width="450px" height="350px"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+   ####  
+   ####
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00007.png" width="450px" height="350px"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+   ####  
+   ####
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00008.png" width="450px" height="350px"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+   ####  
+   ####
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00009.png" width="450px" height="350px"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+   ####  
+   ####
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00010.png" width="450px" height="350px"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+   ####  
+   ####
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00011.png" width="450px" height="350px"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+   ####  
+   ####
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00012.png" width="450px" height="350px"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+   ####  
+  
