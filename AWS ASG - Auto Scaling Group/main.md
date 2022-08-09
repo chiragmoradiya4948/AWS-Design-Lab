@@ -44,13 +44,14 @@ Attach to an existing load balancer
 Choose from your existing load balancers.
 
 ### Implementation on lab ###
+
 #### Step 1 & 2 : Go to EC2 > Auto scaling group, Enter name of ASG & Click on 'Create a launch template'
 ####
-
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto"
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
+
 #### Step 3 & 4 : Enter template name and description & rest setting by default as you can see on right side summary window
 ####
 <img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00002.png" width="auto" height="auto"
