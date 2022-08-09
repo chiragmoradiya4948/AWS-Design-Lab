@@ -43,34 +43,34 @@ Best use case
 Attach to an existing load balancer
 Choose from your existing load balancers.
 
-#### Implementation on lab ####
-#### Step 1 & 2
+### Implementation on lab ###
+#### Step 1 & 2 : Go to EC2 > Auto scaling group, Enter name of ASG & Click on 'Create a launch template'
 ####
 
 <img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
-#### Step 3 & 4
+#### Step 3 & 4 : Enter template name and description & rest setting by default as you can see on right side summary window
 ####
 <img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00002.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
-   #### Step 5
+   #### Step 5 : Go back to ASG page and select newly created template, click on next
 ####
 <img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00003.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
-   #### Step 6 & 7
+   #### Step 6 & 7 : On network configure page, choose availability zone where you want to instanced to be configured
    ####
 <img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00004.png" width="auto" height="auto"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
    ####  
    
-   #### Step 8
+   #### Step 8 : On next page click on 'ELB', it will check ELB health regularly along with EC2 health
    ####
 <img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00005.png" width="auto" height="auto"
      alt="Application Load Balancer"
