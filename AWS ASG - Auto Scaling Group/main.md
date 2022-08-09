@@ -12,7 +12,7 @@ If scaling policies are specified,then Amazon EC2 Auto Scaling can start or stop
 For instance, the next Auto Scaling group has a minimum instance size of one, a targeted instance capacity of two, and a maximum instance size of four. Within your minimum and maximum number of instances, the scaling policies you design change the number of instances according to the parameters you set.
 ####
 
-<img src="/AWS ASG - Auto Scaling Group/AWS_ASG.png" width="450px" height="350px"
+<img src="/AWS-Design-Lab/AWS ASG - Auto Scaling Group/AWS_ASG.png" width="450px" height="350px"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 
@@ -26,5 +26,34 @@ Your applications benefit from Amazon EC2 Auto Scaling in the following ways:
 
 - Better cost management: Amazon EC2 Auto Scaling can increase and decrease capacity dynamically as needed. You save money by creating instances when they are needed and terminating them when they aren't since you pay for the EC2 instances you utilise.
 
+
+####
+Best use case
+####
+- ecommerce website, such websites has more traffic on discount sale compare to normal days.
+
 #### Road map ####
+
+1) Plan to have minimum & maximum instances & desire capacity for your setup.
+2) Configure load balancer.
+3) Create number of instance as per set matrix.
+4) Configure auto scaling group that specify a launch template that contains settings common to all EC2 instances that are launched by this Auto Scaling group. 
+5)
+
+Attach to an existing load balancer
+Choose from your existing load balancers.
+
+#### Implementation on lab ####
+
+####
+
+<img src="/AWS-Design-Lab/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="450px" height="350px"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+####
+####
+<img src="/AWS-Design-Lab/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="450px" height="350px"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+   ####  
 
