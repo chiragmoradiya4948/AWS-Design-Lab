@@ -29,19 +29,18 @@ Your applications benefit from Amazon EC2 Auto Scaling in the following ways:
 
 ####
 Best use case
-####
-- ecommerce website, such websites has more traffic on discount sale compare to normal days.
+- E-commerce websites, such websites has more traffic on discount sale compare to normal days.
 
 #### Road map ####
 
-1) Plan to have minimum & maximum instances & desire capacity for your setup.
-2) Configure load balancer.
-3) Create number of instance as per set matrix.
-4) Configure auto scaling group that specify a launch template that contains settings common to all EC2 instances that are launched by this Auto Scaling group. 
-5)
-
-Attach to an existing load balancer
-Choose from your existing load balancers.
+1) Think about having a minimum and maximum number of instances and desired capacity for your installation.
+2) Set up the load balancer.
+3) Create an auto scaling group and define a launch template that contains settings that are shared by all EC2 instances launched by this Auto Scaling group.
+5) Attach to an existing load balancer.
+6) Determine the availability zone in which instances will be produced during auto scaling.
+7) Once the ASG has been built, examine the EC2 instances that are currently running.
+8) Purposefully stop One instance
+9) ASG will create a new instance, that you can see on the EC2 instance.
 
 ### Implementation on lab ###
 
