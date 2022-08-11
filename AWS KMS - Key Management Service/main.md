@@ -4,10 +4,10 @@
 
 # Road map
 1) We use Dynamo DB service for encrypt to decrypt using multi region key.
-2) We create table in n virginia and make a replica of same table in region asia pacific - Mumbai 
-3) We create multi region key and same we will replicate into region asia pacific - Mumbai
-4) We disble key in region asia pacific - Mumbai and check table details
-5) We able key in region asia pacific - Mumbai and check table details
+2) We create table in 'n virginia' and make a replica of same table in region 'asia pacific - Mumbai'.
+3) We create multi region key and same we will replicate into region 'asia pacific - Mumbai'.
+4) We disble key in region 'asia pacific - Mumbai' and check table details
+5) We able key in region 'asia pacific - Mumbai' and check table details
 
 ### Implementation on lab ###
 
