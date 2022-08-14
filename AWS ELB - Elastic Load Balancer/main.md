@@ -82,7 +82,7 @@ Your incoming traffic is automatically split among numerous targets, including E
 
 #### Step 8 : Review details as per below.
 ####
-<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 6.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 7.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 #### 
@@ -94,35 +94,28 @@ Your incoming traffic is automatically split among numerous targets, including E
      style="float: left; margin-right: 6px;" />
 #### 
 
-#### Step 10 : Now load balacer is created and active. We access our application with load balancer's DNS/IP.
-####
-<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 13.png" width="auto" height="auto" style="border:5px double black;"
-     alt="Application Load Balancer"
-     style="float: left; margin-right: 6px;" />
-#### 
-
 #### Step 10 : When we hit DNS for first time, we get below response from linux_first_server.
 ####
-<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 13.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 9.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 #### 
 
-#### Step 11 : However we we hit refresh button,then we get response from linux_second_server. It means we have set load balancer correctly.
-<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 13.png" width="auto" height="auto" style="border:5px double black;"
+#### Step 11 : However when we hit refresh button,then we get response from linux_second_server. It means we have set load balancer correctly.
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 10.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 #### 
 
 #### Step 12 : We purposefully shutdown, linux_first_server.
-<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 13.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 11.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 #### 
 
 #### Step 13 : Now when we hit load balancer's DNS on browser and repeatedly refresh we only get response from linux_second_server. Because our load balancer will automatically detect one unhealthy instance and transter all HTTP requests to only healthy instance. 
 
-<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 13.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 12.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 #### 
