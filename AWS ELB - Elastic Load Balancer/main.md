@@ -20,5 +20,22 @@ Your incoming traffic is automatically split among numerous targets, including E
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 
+#### Road map ####
+
+1) We create 2 linux instances in same region (I have installed httpd.service & add Hello World script).
+2) We create load balacer and pointing out newly created security group which has target of these 2 instance.
+3) Once load balancer is created, we access load balancer IP/DNS on browser.
+4) We can see while refreshing page get alternative response from both the instances.
+5) We purposefully shutdown one instance,then we get only one response from instance.
+6) Because our load balancer will automatically detect one unhealthy instance and transter all HTTP requests to only healthy instance.
+
+### Implementation on lab ###
+
+#### Step 1 & 2 : Go to EC2 > Auto scaling group, Enter name of ASG & Click on 'Create a launch template'
+####
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+####
 
      
