@@ -14,7 +14,7 @@ Your incoming traffic is automatically split among numerous targets, including E
 - Gateway load balancers, and classic load balancers
 
 
-##### The load balancer type that best meets your demands can be chosen. In this manual, application load balancers are covered. #####
+##### The load balancer type that best meets your demands can be chosen. In this tutorial, application load balancers are covered. #####
 
 <img src="/AWS ELB - Elastic Load Balancer/Apps_ELB.png" width="250px" height="250px"
      alt="Application Load Balancer"
@@ -31,11 +31,100 @@ Your incoming traffic is automatically split among numerous targets, including E
 
 ### Implementation on lab ###
 
-#### Step 1 & 2 : Go to EC2 > Auto scaling group, Enter name of ASG & Click on 'Create a launch template'
+#### Step 1 : Go to EC2 > Launch Instances & create 2 linux instances
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 1.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
-     
+#### Step 2 : Open load balancer console and create load balancer with below settings.
+####
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 8.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+####     
+
+#### Step 3 : In Security groups, click on 'Create new security group' & set as per below parameters.
+####
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 8.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+####      
+
+#### Step 4 : In Listeners and routing, click on 'CCreate target group' & select 'Instances', click on next
+####
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 3.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+####   
+
+#### Step 5 : Now select both instances, because we need to use both instances for requests handling, click on Include as pending below, and next
+####
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 4.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+####   
+
+#### Step 6 : You can see Target Group is created.
+####
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 5.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+####   
+
+#### Step 7 : Go back to load balancer console and refresh, select newly created 'Target Group'
+####
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 6.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+#### 
+
+#### Step 8 : Review details as per below.
+####
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 6.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+#### 
+
+#### Step 9 : Now load balacer is created and active. We access our application with load balancer's DNS/IP.
+####
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 13.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+#### 
+
+#### Step 10 : Now load balacer is created and active. We access our application with load balancer's DNS/IP.
+####
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 13.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+#### 
+
+#### Step 10 : When we hit DNS for first time, we get below response from linux_first_server.
+####
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 13.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+#### 
+
+#### Step 11 : However we we hit refresh button,then we get response from linux_second_server. It means we have set load balancer correctly.
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 13.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+#### 
+
+#### Step 12 : We purposefully shutdown, linux_first_server.
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 13.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+#### 
+
+#### Step 13 : Now when we hit load balancer's DNS on browser and repeatedly refresh we only get response from linux_second_server. Because our load balancer will automatically detect one unhealthy instance and transter all HTTP requests to only healthy instance. 
+
+<img src="/AWS ELB - Elastic Load Balancer/images/AWS ELB 13.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+#### 
+
+### End of page ###
