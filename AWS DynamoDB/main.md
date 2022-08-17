@@ -27,46 +27,46 @@ DynamoDB is a lightweight and adaptable NoSQL database service for all applicati
 
 #### Step 1 : Search DynamoDB on search bar & click on 'create a table', Enter table_name & Partition_key
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS DynamoDB/images/AWS DynamoDB 1.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
 #### Step 2 : Once click on 'Submit', you see table 'employee_data' is active.
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS DynamoDB/images/AWS DynamoDB 2.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
 #### Step 3 : Go on table and click on Explore Items/Create time
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS DynamoDB/images/AWS DynamoDB 3.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 #### Step 4 : Click on 'Add new attributes' & fill data as per below. 
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS DynamoDB/images/AWS DynamoDB 5.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 #### Step 5 : Click on create items and can see table has data now.
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS DynamoDB/images/AWS DynamoDB 8.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 #### Step 6 : Now add new details & set emp_DOB as extra field.            
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS DynamoDB/images/AWS DynamoDB 6.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
 #### Step 7 : You can see newly added 'Attributes' automatically adjusted.            
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS DynamoDB/images/AWS DynamoDB 7.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
