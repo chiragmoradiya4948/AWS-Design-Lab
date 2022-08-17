@@ -24,71 +24,75 @@ Amazon RDS supports the most demanding database applications. You can choose bet
 
 #### Step 1 : Search 'RDS' in search bar and click on create database, select 'Standard create' &  MySQL as engine options. 
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS RDS - Migration/images/AWS RDS 1.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
 #### Step 2 : Select 'free tier' as per below
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS RDS - Migration/images/AWS RDS 2.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
 #### Step 3 : Select other options as per below
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS RDS - Migration/images/AWS RDS 3.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+####
+####
+<img src="/AWS RDS - Migration/images/AWS RDS 3(1).png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
-
 #### Step 4 : Set other fields by default as it is and click on submit. It will take some time to create database.
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS RDS - Migration/images/AWS RDS 4.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
 #### Step 5 : Once database is 'active', click on action and 'Take Snapshot'.
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS RDS - Migration/images/AWS RDS 5.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
 #### Step 6 : Set Database name and Snapshot name, click on 'Take a snapshot'. It will take some time to create a snapshot.
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS RDS - Migration/images/AWS RDS 7.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
 #### Step 7 : Once snapshot created, click on 'Copy snapshot'
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS RDS - Migration/images/AWS RDS 8.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
 #### Step 7 : It will ask for destination region where need to create same database.
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS RDS - Migration/images/AWS RDS 9.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
 #### Step 8 : If you open RDS/Snapshot on destination region, you will see copy of snapshot.
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS RDS - Migration/images/AWS RDS 10.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
 #### Step 9 : You can create database from snapshot by simply 'restore snapshot'
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS RDS - Migration/images/AWS RDS 11.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
