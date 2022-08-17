@@ -15,3 +15,24 @@ DynamoDB is a lightweight and adaptable NoSQL database service for all applicati
 
 ## Use cases
 - Ad tech,Gaming,Media and entertainment,Banking and finance
+
+## Roadmap
+1) We create database of emploeyee's details.
+2) We add items on each field.
+
+
+## implementation on lab
+
+#### Step 1 : Search DynamoDB on search bar & click on 'create a table', Enter table_name & Partition_key
+####
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+####
+
+#### Step 2 : Once click on 'Submit', you see table 'employee_data' is active.
+####
+<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+####
