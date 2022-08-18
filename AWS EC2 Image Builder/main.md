@@ -23,7 +23,17 @@ Create image pipeline
 The image pipeline in Image Builder defines all aspects of the process to customize images. It consists of the image recipe, infrastructure configuration, distribution, and test settings.
 
 ####
-<img src="/AWS ASG - Auto Scaling Group/Images/AWS ASG 00001.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/images/AWS Image builder 1.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+####
+
+
+#### Step 1 & 2 : Go to AWS image builder > Click on 'Create image pipeline'.
+The image pipeline in Image Builder defines all aspects of the process to customize images. It consists of the image recipe, infrastructure configuration, distribution, and test settings.
+
+####
+<img src="/images/AWS Image builder 1.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
