@@ -4,7 +4,7 @@ EC2 Image Builder is a fully managed service that makes it simple to create, cus
 # How it works
 
 ####
-<img src="/AWS EC2 Image Builder/Images/AWS Image builder 1.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS EC2 Image Builder/Images/AWS Image builder 1.png" width="650px" height="400px" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
