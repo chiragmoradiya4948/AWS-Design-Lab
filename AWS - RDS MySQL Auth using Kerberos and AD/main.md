@@ -5,12 +5,19 @@ When users connect to MySQL DB instance, you can use Kerberos authentication to 
 It can save you time and effort to keep all of your credentials in the same directory. This method provides a centralised location for storing and managing credentials for multiple DB instances. Using a directory can also boost your overall security.
 
 # What is Kerberos?
+Kerberos provides a centralized authentication server whose function is to authenticate users to servers and servers to users. Kerberos runs as a third-party trusted server known as the Key Distribution Center (KDC).
 
 # What is RDS?
 
+Amazon Relational Database Service (Amazon RDS) is a web service that makes it easier to set up, operate, and scale a relational database in the AWS Cloud. It provides cost-efficient, resizable capacity for an industry-standard relational database and manages common database administration tasks.
+
 # What is Active Directory?
 
+Active Directory stores information about objects on the network and makes this information easy for administrators and users to find and use.
+
 # Road map
+
+Statement : Authenticating to RDS MySQL using Kerberos and Active Directory
 
 1) AWS Managed Microsoft AD a prerequisite
 2) RDS MySQL instance should be domain joined.
@@ -113,7 +120,7 @@ Notes : Please create Key pair, so that you can recover windows password or set 
      style="float: left; margin-right: 6px;" />
 ####
 
-#### Step 13: Select Password & keyberos authentication and select created directory, Click on 'Create database'
+#### Step 13: Select Password & Kerberos authentication and select created directory, Click on 'Create database'
 #### 
 <img src="/AWS - RDS MySQL Auth using Kerberos and AD/Images/AWS KB 15.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
@@ -122,7 +129,7 @@ Notes : Please create Key pair, so that you can recover windows password or set 
 
 Now RDS database is also configured with AD & Keyberos authentication.
 
-#### Step 14: Connect your RDS instance with your any of instance within VPC, & login with local Admin(Remember this is not keyberos Auth).
+#### Step 14: Connect your RDS instance with your any of instance within VPC, & login with local Admin(Remember this is not Kerberos Auth).
 #### 
 <img src="/AWS - RDS MySQL Auth using Kerberos and AD/Images/AWS KB 10.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
