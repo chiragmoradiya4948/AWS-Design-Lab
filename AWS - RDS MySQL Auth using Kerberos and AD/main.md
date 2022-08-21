@@ -122,14 +122,23 @@ Notes : Please create Key pair, so that you can recover windows password or set 
 
 Now RDS database is also configured with AD & Keyberos authentication.
 
-#### Step 14: Connect your RDS instance with your any of instance within VPC, & auth with root user.
+#### Step 14: Connect your RDS instance with your any of instance within VPC, & login with local Admin(Remember this is not keyberos Auth).
 #### 
 <img src="/AWS - RDS MySQL Auth using Kerberos and AD/Images/AWS KB 10.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
-#### Step 15: Now Connect to the server using the AD user (rdsuser), it will authenticated via Keyberos.
+
+
+#### Step 15: We can connect RDS instance via local credentials, Now we will create user 'rdsuser' without password corresponding to AD user 'rdsuser'. So when we connect via 'rdsuser' it will forwarded to AD for authentication.
+#### 
+<img src="/AWS - RDS MySQL Auth using Kerberos and AD/Images/AWS KB 16.png" width="auto" height="auto" style="border:5px double black;"
+     alt="Application Load Balancer"
+     style="float: left; margin-right: 6px;" />
+####
+
+#### Step 16: Now Connect to the server using the AD user (rdsuser), it will authenticated via Keyberos.
 #### 
 <img src="/AWS - RDS MySQL Auth using Kerberos and AD/Images/AWS KB 11.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
