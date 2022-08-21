@@ -124,14 +124,14 @@ Now RDS database is also configured with AD & Keyberos authentication.
 
 #### Step 14: Connect your RDS instance with your any of instance within VPC, & auth with root user.
 #### 
-<img src="/AWS - RDS MySQL Auth using Kerberos and AD/Images/AWS KB 15.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS - RDS MySQL Auth using Kerberos and AD/Images/AWS KB 10.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
 #### Step 15: Now Connect to the server using the AD user (rdsuser), it will authenticated via Keyberos.
 #### 
-<img src="/AWS - RDS MySQL Auth using Kerberos and AD/Images/AWS KB 15.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS - RDS MySQL Auth using Kerberos and AD/Images/AWS KB 11.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
