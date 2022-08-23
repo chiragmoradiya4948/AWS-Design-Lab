@@ -27,59 +27,52 @@ Statement : Create log groups for lambda function with Python scripts.
 
 #### Step 1: Go to AWS Management console and search 'Lambda', Click on 'Create function', & select as per below.
 ####
-<img src="AWS CloudWatch/Images/AWS Cloudwatch 9.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS CloudWatch/Images/AWS Cloudwatch 9.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
 #### Step 2: Once lambda function is created, you can see python code as per below, You can test & run the code.
 ####
-<img src="AWS CloudWatch/Images/AWS Cloudwatch 1.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS CloudWatch/Images/AWS Cloudwatch 1.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
 #### Step 3: Once lambda function is created, you can see python code as per below, You can test & run the code.
 ####
-<img src="AWS CloudWatch/Images/AWS Cloudwatch 1.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS CloudWatch/Images/AWS Cloudwatch 1.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
-## Now lambda function is created, we will create log groups.
+## Now lambda function is created, we will create log groups ##
 Notes : Many of time, log group is automatically created for lambda function, so don't need to create log groups.
 
 #### Step 4: Go to AWS Management console and search 'Cloudwatch', Click on 'Log groups', & you will see lambda function log group there.
 ####
-<img src="AWS CloudWatch/Images/AWS Cloudwatch 2.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS CloudWatch/Images/AWS Cloudwatch 2.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
-#### Step 5: Now go back to lambda function and make some changes on code.
+#### Step 5: Now go back to lambda function and make some changes on code, deply and run the code
 ####
-<img src="AWS CloudWatch/Images/AWS Cloudwatch 3.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS CloudWatch/Images/AWS Cloudwatch 3.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
-#### Step 6: Now go back to lambda function and make some changes on code, deply and run the code
+#### Step 6: Click on 'log group' & log streams, you will see recent streams.
 ####
-<img src="AWS CloudWatch/Images/AWS Cloudwatch 3.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS CloudWatch/Images/AWS Cloudwatch 4.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
-#### Step 7: Click on 'log group' & log streams, you will see recent streams.
+#### Step 7: Click on recent log streams, you will error on log streams.
 ####
-<img src="AWS CloudWatch/Images/AWS Cloudwatch 4.png" width="auto" height="auto" style="border:5px double black;"
-     alt="Application Load Balancer"
-     style="float: left; margin-right: 6px;" />
-####
-
-#### Step 8: Click on recent log streams, you will error on log streams.
-####
-<img src="AWS CloudWatch/Images/AWS Cloudwatch 5.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS CloudWatch/Images/AWS Cloudwatch 5.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
