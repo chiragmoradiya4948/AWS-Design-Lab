@@ -39,14 +39,6 @@ Statement : If EC2 instance' network traffic goes on more than 10k Bytes, it wil
      style="float: left; margin-right: 6px;" />
 ####
 
-#### Step 4: On next page, Select 'Email' as protocol and endpoint as your mail address.
-
-####
-<img src="/AWS SNS & Alarms/Images/4.png" width="auto" height="auto" style="border:5px double black;"
-     alt="Application Load Balancer"
-     style="float: left; margin-right: 6px;" />
-####
-
 #### Step 4: On next page, Select 'Email' as protocol and endpoint as your mail address, click on Create Subscriptions.
 
 ####
@@ -82,15 +74,7 @@ Statement : If EC2 instance' network traffic goes on more than 10k Bytes, it wil
      style="float: left; margin-right: 6px;" />
 ####
 
-#### Step 7: On next page, Select metric and follow EC2> Pre-instance Metrics > NetworkIn as Metric name (use instance name)
-
-####
-<img src="/AWS SNS & Alarms/Images/8.png" width="auto" height="auto" style="border:5px double black;"
-     alt="Application Load Balancer"
-     style="float: left; margin-right: 6px;" />
-####
-
-#### Step 8: Once you select metric, and click on next you will see screen like below.
+#### Step 8: On next page, Select metric and follow EC2> Pre-instance Metrics > NetworkIn as Metric name (use instance name)
 
 ####
 <img src="/AWS SNS & Alarms/Images/8.png" width="auto" height="auto" style="border:5px double black;"
