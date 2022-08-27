@@ -125,20 +125,20 @@ AmazonSSMManagedInstanceCore managed policy. And set Role name.
 ####
 #### Step 15 : Pipeline status is showing like 'Distributing' > 'Integrating' > 'Active'
 ####
-<img src="/AWS EC2 Image Builder/Images/AWS Image builder 14.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS EC2 Image Builder/Images/AWS Image builder 16.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 
 #### Step 16 : now our OS image is created, go to EC2 dashboard >. launch EC2 & select our AMI from My AMIs.
 ####
-<img src="/AWS EC2 Image Builder/Images/AWS Image builder 14.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS EC2 Image Builder/Images/AWS Image builder 18.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
 #### Step 17 : Set other configurations and create instance, once instance is created, connect to EC2 instance and see java vestion, you can see Corretto is installed.
 ####
-<img src="/AWS EC2 Image Builder/Images/AWS Image builder 14.png" width="auto" height="auto" style="border:5px double black;"
+<img src="/AWS EC2 Image Builder/Images/AWS Image builder 19.png" width="auto" height="auto" style="border:5px double black;"
      alt="Application Load Balancer"
      style="float: left; margin-right: 6px;" />
 ####
