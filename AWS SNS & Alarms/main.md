@@ -14,7 +14,7 @@ A CloudWatch Alarm is always in one of three states: OK, ALARM, or INSUFFICIENT_
 Statement : If EC2 instance' network traffic goes on more than 10k Bytes, it will trigger mail to recipient.
 
 1) Create SNS service for setting target of notification.
-2) Create 
+2) Create alarm for getting mail, when network traffic go beyong the 10k Bytes
 
 
 #### Step 1: Go to AWS Management console and search 'SNS', Set 'Topic name' & click on next step.
