@@ -20,7 +20,11 @@ EC2 Image Builder is a fully managed service that makes it simple to create, cus
 3) Simple image management for both AWS and on-premises
 4) Built-in support for validation
 
-Create image pipeline
+# Road map
+1) Using AWS image builder, we will create image pipeline.
+2) We select components e.g. amazon-corretto-11-headless (OpenJDK 11) & aws-cli-version-2-linux while building OS.
+3) AWS automatically test, build & distribute OS.
+4) Check newly created OS and launch instance in any region.
 
 ### Implementation on lab ###
 
